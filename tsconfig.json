@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es2018",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "lib": [
+            "es2017",
+            "dom"
+        ],
+        "esModuleInterop": false,
+        "experimentalDecorators": true,
+        "outDir": "dist",
+        "rootDir": "./"
+    },
+    "include": [
+        "**/*.ts"
+    ]
+}
